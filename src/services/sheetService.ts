@@ -19,7 +19,7 @@ import {
 // ==================== CONFIGURATION ====================
 
 // 🔴 QUAN TRỌNG: Thay URL này bằng URL Web App của bạn sau khi deploy code.gs
-export const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxz09S2IrrJIZxeIUNcc02Gu440YzvJzw-rjzSoxIdXjWpjz0lXChPsjR_6ON0f_3kDXw/exec';
+export const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxtTDnbJf5J1V7SdFCYL604AtrL20ESIQEXPxIqG3ZoJXv5U9-QN2m19xvAzu7bDWmt/exec';
 
 // API Response interface
 interface APIResponse<T = unknown> {
