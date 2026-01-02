@@ -6,7 +6,7 @@ import { GoogleGenAI } from "@google/genai";
 import { TutorContext, TutorResponse, Question } from '../types';
 
 // API Key từ environment
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 // Track hint levels per question
 const hintLevels: Map<string, number> = new Map();
